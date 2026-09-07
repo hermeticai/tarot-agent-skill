@@ -1,0 +1,54 @@
+{
+  "source_page": "https://azralia.com/tarot/spreads/",
+  "note": "Position NAMES here are just for mapping a drawn card to a slot. The actual meaning of each position (what to say about it) is NOT duplicated here \u2014 fetch source_page and read it from there, since that's the text that should drive the interpretation.",
+  "spreads": {
+    "three-card": {
+      "display_name": "Three Card",
+      "draw_rule": "full_deck",
+      "card_count": 3,
+      "positions": ["Past", "Present", "Future"]
+    },
+    "love": {
+      "display_name": "Love",
+      "draw_rule": "suit:cups",
+      "card_count": 4,
+      "positions": ["The Beginning", "The Peak", "The Obstacle", "The Fall"],
+      "special_instructions": "Papus' method: only the 14 Cups cards are in play. Draw 4 from that subset only."
+    },
+    "wirth-cross": {
+      "display_name": "Wirth Cross",
+      "draw_rule": "major_arcana_plus_calculated",
+      "card_count": 5,
+      "positions": ["The Case For", "The Case Against", "The Judge", "The Verdict", "The Synthesis"],
+      "special_instructions": "Draw 4 cards from the 22 Major Arcana only (numbers 0-21). The 5th card (The Synthesis) is NOT drawn: sum the 4 drawn cards' numbers. If the sum is 22 or under, that number's card is the 5th card. If the sum is over 22, repeatedly add its digits together until the result is 22 or under, then use that number's card."
+    },
+    "yes-no": {
+      "display_name": "Yes/No",
+      "draw_rule": "full_deck",
+      "card_count": 6,
+      "positions": ["The Question", "The Past", "The Difficulty", "The Help", "The Outcome", "The Answer"]
+    },
+    "celtic-cross": {
+      "display_name": "Celtic Cross",
+      "draw_rule": "full_deck",
+      "card_count": 10,
+      "positions": [
+        "This covers him", "This crosses him", "This crowns him", "This is beneath him",
+        "This is behind him", "This is before him", "Himself", "His house",
+        "His hopes or fears", "What will come"
+      ],
+      "special_instructions": "A Significator (11th card) may optionally be chosen by the querent beforehand to represent them; it is laid face up and not drawn from the deck, and is not itself read. If the user wants one, ask them to pick a card (or pick a court card matching them) rather than drawing it randomly."
+    },
+    "fifteen-card": {
+      "display_name": "Fifteen Card Spread",
+      "draw_rule": "full_deck",
+      "card_count": 15,
+      "positions": [
+        "The Querent", "Key Card", "Key Card",
+        "Natural Direction", "Alternative Action", "Decision Support", "Beyond Control",
+        "Natural Direction", "Alternative Action", "Decision Support", "Beyond Control",
+        "Natural Direction", "Alternative Action", "Decision Support", "Beyond Control"
+      ]
+    }
+  }
+}

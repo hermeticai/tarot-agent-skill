@@ -1,0 +1,44 @@
+{
+  "source": "azralia.com/tarot",
+  "note": "Structural reference only (card names, numbers, page locations). The actual card meanings are NOT stored here \u2014 they are fetched live from the pages below so the reading always reflects the current text on the site.",
+  "major_arcana": {
+    "cards": [
+      { "number": 0,  "name": "The Fool",            "slug": "fool" },
+      { "number": 1,  "name": "The Magician",        "slug": "magician" },
+      { "number": 2,  "name": "The High Priestess",  "slug": "high-priestess" },
+      { "number": 3,  "name": "The Empress",         "slug": "empress" },
+      { "number": 4,  "name": "The Emperor",         "slug": "emperor" },
+      { "number": 5,  "name": "The Hierophant",      "slug": "hierophant" },
+      { "number": 6,  "name": "The Lovers",          "slug": "lovers" },
+      { "number": 7,  "name": "The Chariot",         "slug": "chariot" },
+      { "number": 8,  "name": "Strength",            "slug": "strength" },
+      { "number": 9,  "name": "The Hermit",          "slug": "hermit" },
+      { "number": 10, "name": "Wheel of Fortune",    "slug": "wheel-of-fortune" },
+      { "number": 11, "name": "Justice",             "slug": "justice" },
+      { "number": 12, "name": "The Hanged Man",      "slug": "hanged-man" },
+      { "number": 13, "name": "Death",               "slug": "death" },
+      { "number": 14, "name": "Temperance",          "slug": "temperance" },
+      { "number": 15, "name": "The Devil",           "slug": "devil" },
+      { "number": 16, "name": "The Tower",           "slug": "tower" },
+      { "number": 17, "name": "The Star",            "slug": "star" },
+      { "number": 18, "name": "The Moon",            "slug": "moon" },
+      { "number": 19, "name": "The Sun",             "slug": "sun" },
+      { "number": 20, "name": "Judgement",           "slug": "judgement" },
+      { "number": 21, "name": "The World",           "slug": "world" }
+    ],
+    "url_pattern": "https://azralia.com/tarot/{slug}/",
+    "overview_url": "https://azralia.com/tarot/"
+  },
+  "minor_arcana": {
+    "suits": {
+      "wands":     { "page_url": "https://azralia.com/tarot/wands/" },
+      "cups":      { "page_url": "https://azralia.com/tarot/cups/" },
+      "swords":    { "page_url": "https://azralia.com/tarot/swords/" },
+      "pentacles": { "page_url": "https://azralia.com/tarot/pentacles/" }
+    },
+    "ranks": [
+      "Ace", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten",
+      "Page", "Knight", "Queen", "King"
+    ]
+  }
+}
